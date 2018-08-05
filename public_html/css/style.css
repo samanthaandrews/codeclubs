@@ -1,0 +1,68 @@
+h1, h2, h3, h4, h5, li {
+    font-family: 'Roboto Mono', monospace;
+    color: #303030;
+}
+
+/* h4 {
+    -webkit-text-fill-color: white; /* Will override color (regardless of order)
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #303030;
+} */
+
+h6, p {
+    font-family: 'Nunito Sans', sans-serif;
+    color: #303030;
+}
+
+.navbar-bottom-border {
+    border-bottom: 1px solid #303030;
+}
+
+.button {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: .7em;
+    color: #303030;
+    padding: 15px 32px;
+    border: 2px solid #addc42;
+}
+
+.button:hover {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: .7em;
+    box-shadow: 5px 5px #fc715d;
+    color: #303030;
+    border: 2px solid #addc42;
+}
+
+.about-section {
+    margin: 5em;
+    padding: 5em;
+    border: 2px solid #addc42;
+    box-shadow: 5px 5px #addc42;
+}
+
+.girls-who-code-link {
+    color: #fc715d;
+}
+
+.image1 {
+    width: 80%;
+}
+
+.image2 {
+    width: 70%;
+}
+
+.box {
+    margin-left: 1em;
+    border: 2px dashed #303030;
+    box-shadow: 5px 5px #fc715d;
+}
+
+.footer {
+    border-top: 1px solid #303030;
+    padding-top: 15px;
+}
+
+/* background-color: #addc42; */
+/* background-color: #f0fc74; */
