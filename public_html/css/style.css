@@ -3,11 +3,15 @@ h1, h2, h3, h4, h5, li {
     color: #303030;
 }
 
-/* h4 {
-    -webkit-text-fill-color: white; /* Will override color (regardless of order)
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #303030;
-} */
+nav a:hover {
+    font-family: 'Roboto Mono', monospace;
+}
+
+a:hover {
+    font-family: 'Nunito Sans', sans-serif;
+    text-decoration: none;
+    color: #303030;
+}
 
 h6, p {
     font-family: 'Nunito Sans', sans-serif;
@@ -47,16 +51,46 @@ h6, p {
 
 .image1 {
     width: 80%;
+    margin: auto;    
+    display: block;
+    box-shadow: 5px 5px #addc42;
 }
 
 .image2 {
     width: 70%;
+    margin: auto;    
+    display: block;
+    box-shadow: 5px 5px #addc42;
 }
 
 .box {
-    margin-left: 1em;
+    margin: 1em;
+    padding: 1em;
     border: 2px dashed #303030;
     box-shadow: 5px 5px #fc715d;
+}
+
+.plus {
+    color: #fc715d;
+    padding-right: .5em;
+}
+
+.get-involved-buttons {
+    font-size: .7em;
+    color: #303030;
+    padding: 7px 30px;
+    border: 2px solid #fc715d;
+}
+
+form {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.submit-button {
+    font-size: .7em;
+    color: #303030;
+    padding: 7px 30px;
+    border: 2px solid #fc715d;
 }
 
 .footer {
@@ -64,5 +98,15 @@ h6, p {
     padding-top: 15px;
 }
 
-/* background-color: #addc42; */
-/* background-color: #f0fc74; */
+@media screen and (max-width: 600px) {
+    .about-section {
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+    }
+    .jcc-registration {
+        margin-bottom: 2em !important;
+    }
+    .image1 {
+        margin-bottom: 2em;
+    }
+  }
